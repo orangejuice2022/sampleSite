@@ -1,0 +1,536 @@
+<html>
+<head>
+<title> Noriel Achero | Curriculum Vitae </title>
+
+<link rel="icon" href="https://cdn.discordapp.com/attachments/908756159542988800/908759972769300490/PngItem_5191873_1.png">
+<script src="https://kit.fontawesome.com/45c54577bd.js" crossorigin="anonymous"></script>
+
+<style>
+
+	html {
+		scroll-behavior: smooth;
+	}
+
+	body {
+	
+		width:100%;
+		overflow-x: hidden;
+		padding: 0;
+		margin: 0;
+		font-family: tahoma;
+		
+	}
+	
+	/*--------------- NORIEL NAVIGATION --------------- */
+
+	nav{
+		width: 100%;
+		height: 80px;
+		position: fixed;
+		z-index: 2;
+		transition: background-color 0.8s linear;
+	
+	
+    }
+
+
+	.nav.scrolled {
+		background-color: #EC883D;
+		transition: background-color 0.8s linear;
+	}
+	
+	
+
+    .navbtn{
+        float: right;
+		margin-right: 20px;
+		float: none;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		margin-top: 0px;
+    }
+
+    .navbtnli{
+        display:inline-block;
+        margin-right: 20px;
+
+        
+    }
+
+    button{
+        padding:10px;
+        font-weight: bold;
+        font-family: Candara;
+        border:none;
+        background-color: rgb(255, 255, 255, 0);
+        color:rgb(43, 43, 43);
+        transition: all .3s ease-in-out;
+        color: white;
+		outline: none;
+    }
+    
+    button:hover{
+        cursor:pointer;
+        color: #EC883D;
+		border: no-border;	
+    }
+
+    #active{
+        padding:10px;
+        font-weight: bold;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        border:none;
+        color: 
+    }
+	
+
+	 
+	
+
+
+	
+	
+	/*--------------- NORIEL COVER ---------------*/
+	
+	.cover{
+	
+		position: absolute;
+		width: 100%;
+		height: 100vh;
+		overflow: hidden;
+		background-size: cover;
+		animation: animate 10s ease-in-out infinite;
+	  
+	}	
+			
+	@keyframes animate{
+		0%,100%{
+			background-image: url('https://cdn.discordapp.com/attachments/908756159542988800/908756214127661136/banner.jpg');
+		}	
+		25%{
+			background-image: url('https://cdn.discordapp.com/attachments/908756159542988800/908756215939616818/banner2.jpg');
+		}
+		50%{
+			background-image: url('https://cdn.discordapp.com/attachments/908756159542988800/908756217420218439/banner3.jpg');
+		}	
+		75%{
+			background-image: url('https://cdn.discordapp.com/attachments/908756159542988800/908756219076960286/banner4.jpg');
+		}				
+	}
+	
+	.header {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		width: 100%;
+		font-size: 20px;
+	  
+	}
+	
+	.banner_name{
+		color: white;
+		font-family: tahoma;
+		font-size: 60px;
+	}
+		  
+		
+	
+	
+	/*--------------- NORIEL ABOUT  --------------- */
+
+	.about_section {
+	
+		position: absolute;
+		margin-top: 100vh;
+		width: 100%;  
+		background-color: 0f0f0f;
+		height: auto;
+	}
+
+	.about_header{
+		color: white;
+		font-family: tahoma;
+		font-size: 30px;
+		
+
+		
+		
+	}
+
+	.about1{
+		width: 90%;
+		height: 1250px;
+		float: center;
+		background-color: 1A1A1A;
+		border-top: 500px;
+		text-align: left;
+		box-shadow: 10px 10px #EC883D;
+		margin-top: 20px;
+		margin-bottom: 50px;
+		
+		
+	}
+	
+	.left{
+		float: left;
+		height: auto;
+		width: 45%;
+		text-align: center;
+
+		  
+	}
+	
+	.image_profile{
+		 border-radius: 50%;
+		 margin-top: 50px;
+		 box-shadow: 2px 2px #0C0C0C;
+
+	
+	}
+	
+	.name{
+		
+		font-family: tahoma;
+		color: #EC883D;
+		text-shadow: 2px 2px #0C0C0C;
+	
+	}
+	
+	.profile{
+	
+		font-family: tahoma;
+		color: #EC883D;
+
+	}
+	
+	.text{
+		color: white;
+		font-family: tahoma;
+		margin-left: 50px;
+		margin-right: 50px;
+	}
+	
+	.text_contact{
+		color: white;
+		font-family: tahoma;
+		margin-left: 0;
+		margin-right: 0;
+		text-align: center;
+	}
+	
+	.text_socialmedia{
+		color: white;
+		font-family: tahoma;
+		margin-left: 0;
+		margin-right: 0;
+		text-align: center;
+	}
+	
+	
+	.right{
+		float: right;
+		height: 100px;
+		width: 55%;	
+	}
+	
+	.skills{
+		text-align: center;
+		margin-top: 50px;
+		background-color: #EC883D;
+		margin-right: 30px;
+		color: 1A1A1A;
+		margin-bottom: 0px;
+	}
+	
+	.skill_set{
+		background-color: white;
+		margin-top: 0px;
+		margin-right: 30px;
+		height: auto;
+		color: 1A1A1A;
+		font-size: 20px;
+	}
+	
+	.software{
+		text-align: center;
+		margin-top: 0px;
+		background-color: #EC883D;
+		margin-right: 30px;
+		color: 1A1A1A;
+		margin-bottom: 0px;
+	}
+	
+	
+	
+
+
+
+	
+	/*--------------- NORIEL PROJECTS  --------------- */	
+	.projects_section {
+	
+		position: absolute;
+		margin-top: 0px;
+		width: 100%;  
+		background-color: #0F0F0F;
+		height: auto;
+	}
+
+	.img_projecs{
+	
+		box-shadow: 10px 10px #EC883D;
+	}
+
+
+	/*--------------- NORIEL FOOTER  --------------- */
+	
+	#footer {
+		background-color: #EC883D;
+		padding: 30px 0;
+		color:
+		font-size: 14px;
+		margin-top: 10px;
+		position: relative;
+		z-index: 99;
+		box shadow: 0 0 10px 8px rgba(0,0,0,0.8);
+	}
+
+
+	#footer .credits {
+		padding-top: 10px;
+		text-align: center;
+		color: #0F0F0F;
+	}
+
+</style>
+</head>
+<body>
+
+	<!------------NAVIGATION------------->
+
+    <nav class="nav">
+	
+       
+       
+        <ul class="navbtn">
+            <li class="navbtnli"><a href="#home_button"><button>HOME</button></a></li>
+            <li class="navbtnli"><a href="#about_button"><button>ABOUT</button></a></li>
+            <li class="navbtnli"><a href="#projects_button"><button>PROJECTS</button></a></li>
+        </ul>    
+    
+    </nav>
+	
+	<!------------COVER------------->
+	<a name="home_button"></a>
+	
+	<div class="cover">  
+	
+	</div>
+	
+	<div class="header">
+				
+		<center>
+				<font class="banner_name"> <b>NORIEL ACHERO </b></font><br>
+				<font color="#EC883D" style="font-family: Tahoma;"> COMPUTER SCIENCE STUDENT </font>
+		</center>
+	</div>
+	
+
+	<!------------ABOUT------------->
+	<div class="about_section">  	
+	
+	<a name="about_button"></a>
+		
+	
+		<br>
+		<br>
+		<br>
+		<br>
+		<center> <font class="about_header"><b>ABOUT</b> </font><br></center>
+		<center>
+		<div class="about1">
+		
+		<div class="left">
+		<img class="image_profile" src="https://cdn.discordapp.com/attachments/908756159542988800/908756221807439952/img1.jpg" height="200" width="200">		
+		
+		
+		<h1 class="name">NORIEL ACHERO</h1>
+		<br>
+		<br>
+
+		<h2 class="profile"> PROFILE </h2>
+		
+		<p class="text">Hello! I am Noriel Achero, a student of New Era University with a bachelor course of Bachelor of Science in Computer Science. 
+		I am a flexible person, and can adjust on different kinds of studies and work. I can lead and follow anyone.
+		
+		</p>
+		
+		<h2 class="profile"> RELIGION </h2>
+		
+		<p class="text">IGLESIA NI CRISTO (CHURCH OF CHRIST)
+		
+		</p>
+		
+		<h2 class="profile"> CONTACT INFO. </h2>
+		
+		<p class="text_contact">
+		Mobile: +(63) 915 244 6207<br>
+		Email:  acheronorielr@gmail.com<br>
+		Address: 22B Don Jose Street, DESHA, Holy Spirit, Quezon City
+		
+		</p>
+		
+		<h2 class="profile"> SOCIAL MEDIA </h2>
+		
+		<p class="text_socialmedia">
+		
+		<i class="fab fa-facebook"></i>    fb.com/nrachero<br>
+		<i class="fab fa-instagram"></i>   @nrachero<br>
+		<i class="fab fa-twitter-square"></i> @nrachero<br>
+		
+		</p>
+		
+		
+		
+		</div>
+		
+		<div class="right">
+		
+		<h1 class="skills">SKILLS</h1>
+		
+		<div class="skill_set">
+		<br>
+		<ul>
+		<li>MUSIC WRITING</li>
+		<li>VIDEO EDITING</li>
+		<li>AUDIO EDITING</li>
+		<li>GRAPHIC DESIGN</li>
+		<li>GAME DEVELOPMENT</li>
+		<li>WEB DEVELOPMENT</li>
+		<li>TECHNICAL DRAFTING</li>
+		<li>HTML</li>
+		<li>CSS</li>
+		<li>ACTIONSCRIPT</li>
+		<li>JAVA</li>
+		</ul>
+		<br>
+		
+		</div>
+		
+		<h1 class="software">APPLICATIONS/SOFTWARE USED</h1>
+		
+		<div class="skill_set">
+		<br>
+			<ul>
+				<li>Visual Studio Code</li>
+				<li>Eclipse</li>
+				<li>Adobe Flash</li>
+				<li>Adobe Photoshop</li>
+				<li>AutoCad</li>
+				<li>Fl Studio</li>
+				<li>Finale</li>
+			</ul>
+		<br>
+		
+		</div>
+		
+		
+		<h1 class="software">EDUCATION BACKGROUND</h1>
+		
+		<div class="skill_set">
+		<br>
+		&nbsp&nbspELEMENTARY
+			<ul>
+				<li>Landayan Elementary School (2009-2013)</li>
+				<li>Gideon School of Quezon City (2013-2015)</li>
+			</ul>
+		
+		&nbsp&nbspJUNIOR HIGH SCHOOL
+			<ul>
+				<li>Gideon School of Quezon City (2015-2019)</li>
+			</ul>
+			
+		&nbsp&nbspSENIOR HIGH SCHOOL
+			<ul>
+				<li>New Era Univeristy (ICT STRAND) (2019-2021) </li>
+			</ul>
+			
+		&nbsp&nbspCOLLEGE
+			<ul>
+				<li>New Era Univeristy (Computer Science) (2021-Present) </li>
+			</ul>
+		<br>
+		
+		</div>
+
+		</center>
+		
+		  
+		  
+	<!------------PROEJECTS------------->
+	<div class="projects_section">  	
+	
+	<a name="projects_button"></a>
+			<br>
+		<br>
+		<br>
+		<br>
+		<center> 
+				<font class="about_header"><b>PROJECTS</b> </font><br>
+		</center>
+		
+		<center>
+		
+		<br>
+		<br>
+		
+		<img src="https://cdn.discordapp.com/attachments/908756159542988800/908756223841697843/metemp.jpg" height="250" width="250" class="img_projecs">
+		<br><br>
+		<h2 style="color: #EC883D;"> METEMP|SYCHOSIS </h2>
+		<p style="color: white;">
+		Contribution/Role:<br><br>
+		Director/Concept Design, Story, Illustrator, Music, Cast, GDD Coordinator, and Research Coordinator.
+		</p>
+		<br><br>		
+		<img src="https://cdn.discordapp.com/attachments/908756159542988800/908756226039509072/para.jpg" height="250" width="250" class="img_projecs">
+		<br><br>
+		<h2 style="color: #EC883D;"> NEU PARADIGM ESPORTS </h2>
+		<p style="color: white;">
+		Contribution/Role:<br><br>
+		IT Specialist
+		</p>
+		
+		<br><br>
+		
+		
+	<!------------FOOTER------------->		
+	<footer id="footer">
+		<div class="footer-top">
+
+      <div class="credits">
+			<b>NORIEL ACHERO | 1BSCS 2 | INTRODUCTION TO COMPUTING</b>
+      </div>
+    </div>
+  </footer>
+		
+		
+		
+		
+		
+
+	
+
+	
+		
+		
+
+
+
+
+
+
+</body>
+</html>
